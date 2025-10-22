@@ -1,28 +1,28 @@
-# Catatan Belajar DSA (Data Structures and Algorithms)
+# DSA Learning Notes (Data Structures and Algorithms)
 
-Repositori ini berisi catatan dan contoh kode saya selama belajar Struktur Data dan Algoritma (DSA) menggunakan bahasa Dart.
+This repository contains my notes and code examples while learning Data Structures and Algorithms (DSA) using the Dart programming language.
 
-## Daftar Isi
+## Table of Contents
 
 - [O(1) - Constant Time](#o1---constant-time)
 - [O(n) - Linear Time](#on---linear-time)
-- [Referensi](#referensi)
+- [References](#references)
 
 ---
 
 ## O(1) - Constant Time
 
-- **Penjelasan:** Operasi dengan kompleksitas waktu O(1) berarti waktu eksekusi tidak bergantung pada jumlah data. Contoh: akses langsung ke elemen pada Map atau List dengan index.
-- **Contoh kode:** Lihat file [`o(1).dart`](<./o(1).dart>)
+- **Explanation:** An operation with O(1) time complexity means the execution time does not depend on the amount of data. Example: direct access to an element in a Map or List by index.
+- **Code example:** See the [`o(1).dart`](<./o(1).dart>) file.
 
 ## O(n) - Linear Time
 
-- **Penjelasan:** Operasi dengan kompleksitas waktu O(n) berarti waktu eksekusi bertambah seiring bertambahnya jumlah data. Contoh: pencarian elemen pada List dengan iterasi.
-- **Contoh kode:** Lihat file [`o(n).dart`](<./o(n).dart>)
+- **Explanation:** An operation with O(n) time complexity means the execution time increases as the amount of data increases. Example: searching for an element in a List by iteration.
+- **Code example:** See the [`o(n).dart`](<./o(n).dart>) file.
 
 ---
 
-## Referensi
+## References
 
 - [Big O Notation – GeeksforGeeks](https://www.geeksforgeeks.org/analysis-of-algorithms-set-1-asymptotic-analysis/)
 - [Dart Documentation](https://dart.dev/guides)
