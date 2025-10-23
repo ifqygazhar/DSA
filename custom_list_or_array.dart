@@ -35,7 +35,7 @@ class MyList<T> {
       final firstItem = this.data[0];
 
       // reindex
-      for (int i = 0; i < this.length; i++) {
+      for (int i = 0; i < this.length - 1; i++) {
         final move = i + 1;
         this.data[i] = this.data[move] as T;
       }
@@ -55,7 +55,7 @@ class MyList<T> {
       final item = this.data[indexPosition];
 
       //reindex
-      for (int i = indexPosition; i < this.length; i++) {
+      for (int i = indexPosition; i < this.length - 1; i++) {
         final move = i + 1;
         this.data[i] = this.data[move] as T;
       }
