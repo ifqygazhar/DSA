@@ -1,4 +1,4 @@
-// with map / object data structure with o(1)
+// map / object data structure with o(1)
 
 const Map<String, int> items = {
   "playstation": 1,
@@ -16,7 +16,7 @@ void findItemToExaclyPosition(String nameItem) {
   }
 }
 
-/// with array/list data structure with o(1)
+/// array/list data structure with o(1)
 
 const List<int> itemPositions = [2, 3, 1, 6, 10];
 
