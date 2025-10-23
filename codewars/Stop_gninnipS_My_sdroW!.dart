@@ -2,7 +2,7 @@ String spinWords(String str) {
   final splitted = str.split(" ");
 
   for (int i = 0; i < splitted.length; i++) {
-    if (splitted[i].length > 5) {
+    if (splitted[i].length >= 5) {
       final String reversed = splitted[i].split('').reversed.join();
       splitted[i] = reversed;
     }
