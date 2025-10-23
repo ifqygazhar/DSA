@@ -7,16 +7,17 @@ class MyList<T> {
 
   MyList() : this.length = 0, this.data = {};
 
-  dynamic add(T value) {
+  Map<int, T> add(T value) {
     this.data[this.length] = value;
     this.length += 1;
+    return this.data;
   }
 
-  dynamic get(int indexPosition) {
+  T? get(int indexPosition) {
     return this.data[indexPosition];
   }
 
-  dynamic pop() {
+  T? pop() {
     if (this.length < 1) {
       return null;
     } else {
@@ -28,7 +29,7 @@ class MyList<T> {
     }
   }
 
-  dynamic shift() {
+  T? shift() {
     if (this.length < 1) {
       return null;
     } else {
@@ -48,7 +49,7 @@ class MyList<T> {
     }
   }
 
-  dynamic deleteByIndex(int indexPosition) {
+  T? deleteByIndex(int indexPosition) {
     if (indexPosition < 0 || indexPosition >= this.length) {
       return null;
     } else {
@@ -64,6 +65,14 @@ class MyList<T> {
       this.data.remove(this.data.length - 1);
       this.length -= 1;
       return item;
+    }
+  }
+
+  T? isEmpty() {
+    if (this.length == 0) {
+      return true as T;
+    } else {
+      return false as T;
     }
   }
 
@@ -86,4 +95,5 @@ void main() {
   print("after shift : ${myList}");
   print("delete by index: ${myList.deleteByIndex(0)}");
   print("after delete by index : ${myList}");
+  print("isEmpty : ${myList.isEmpty()}");
 }
