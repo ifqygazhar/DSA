@@ -1,3 +1,5 @@
+// with map / object data structure with o(1)
+
 const Map<String, int> items = {
   "playstation": 1,
   "xbox": 2,
@@ -14,6 +16,16 @@ void findItemToExaclyPosition(String nameItem) {
   }
 }
 
+/// with array/list data structure with o(1)
+
+const List<int> itemPositions = [2, 3, 1, 6, 10];
+
+void findItemPositionInList(List<int> list, int indexPosition) {
+  final find = list[indexPosition];
+  print("find position: ${find}");
+}
+
 void main() {
   findItemToExaclyPosition("nintendo");
+  findItemPositionInList(itemPositions, 1);
 }
