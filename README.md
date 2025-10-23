@@ -7,6 +7,7 @@ This repository contains my notes and code examples while learning Data Structur
 - [O(1) - Constant Time](#o1---constant-time)
 - [O(n) - Linear Time](#on---linear-time)
 - [O(n^2) - Quadratic Time](#on2---quadratic-time)
+- [O(log n) - Logarithmic Time](#olog-n---logarithmic-time)
 - [References](#references)
 
 ---
@@ -28,6 +29,11 @@ This repository contains my notes and code examples while learning Data Structur
   - `findItemWithCompare`: Compares each element of two lists at every possible pair of indices.
   - `findPairs`: Finds duplicate pairs in a list by comparing every possible pair of elements.
 - **Code example:** See the [`o(n^2).dart`](<./o(n^2).dart>) file.
+
+## O(log n) - Logarithmic Time
+
+- **Explanation:** Operasi dengan kompleksitas O(log n) berarti waktu eksekusi bertambah secara logaritmik terhadap jumlah data. Biasanya terjadi pada algoritma yang membagi data menjadi dua di setiap langkah, seperti binary search.
+- **Code example:** Lihat file [`o(log n).dart`](<./o(log n).dart>) untuk contoh implementasi binary search dalam Dart.
 
 ---
 
