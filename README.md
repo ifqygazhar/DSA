@@ -8,6 +8,7 @@ This repository contains my notes and code examples while learning Data Structur
 - [O(n) - Linear Time](#on---linear-time)
 - [O(n^2) - Quadratic Time](#on2---quadratic-time)
 - [O(log n) - Logarithmic Time](#olog-n---logarithmic-time)
+- [Custom List/Array Implementation](#custom-listarray-implementation)
 - [References](#references)
 
 ---
@@ -34,6 +35,11 @@ This repository contains my notes and code examples while learning Data Structur
 
 - **Explanation:** Operasi dengan kompleksitas O(log n) berarti waktu eksekusi bertambah secara logaritmik terhadap jumlah data. Biasanya terjadi pada algoritma yang membagi data menjadi dua di setiap langkah, seperti binary search.
 - **Code example:** Lihat file [`o(log n).dart`](<./o(log n).dart>) untuk contoh implementasi binary search dalam Dart.
+
+## Custom List/Array Implementation
+
+- **Explanation:** I have learned how to implement a custom list/array data structure in Dart. This includes methods like `add`, `get`, `pop`, `shift`, and `deleteByIndex`, as well as handling reindexing and managing the internal state of the list.
+- **Code example:** See the [`custom_list_or_array.dart`](./custom_list_or_array.dart) file.
 
 ---
 
