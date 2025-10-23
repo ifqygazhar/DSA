@@ -6,7 +6,9 @@ void findItemWithCompare(List<int> list1, List<int> list2) {
   for (int i = 0; i < list1.length; i++) {
     for (int j = 0; j < list2.length; j++) {
       if (list1[i] == list2[j] && i == j) {
-        print("Item found: ${list1[i]} at index ${i}");
+        print(
+          "Item found list1: ${list1[i]} at index ${i}, item found list2: ${list2[j]} at index ${j}",
+        );
         return;
       }
     }
